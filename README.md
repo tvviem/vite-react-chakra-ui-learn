@@ -8,3 +8,6 @@
 6. Card component
 
 > REF youtube: [short-course](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hcnIeryurNMMcGBHp7AYlP)
+> Navigate: react-router-dom
+> Layout: RootLayout.tsx, Create.tsx, Dashboard.tsx, Profile.tsx
+> Data: db.json
