@@ -7,14 +7,14 @@ const RootLayout = () => {
     <Grid templateColumns="repeat(6, 1fr)" bg="gray.50">
       <GridItem
         as="aside"
-        colSpan={1}
+        colSpan={{ base: 6, md: 2, xl: 1 }}
         bg="purple.400"
-        minHeight="100vh"
-        padding="30px"
+        minHeight={{ lg: '100vh' }}
+        p={{ base: '20px', md: '30px' }}
       >
         <span>SIDE-BAR</span>
       </GridItem>
-      <GridItem as="main" colSpan={5} padding="10px">
+      <GridItem as="main" colSpan={{ base: 6, md: 4, xl: 5 }} padding="10px">
         <Navbar />
         <Outlet />
       </GridItem>
