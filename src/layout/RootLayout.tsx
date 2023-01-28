@@ -10,7 +10,7 @@ const RootLayout = () => {
         as="aside"
         colSpan={{ base: 6, md: 2, xl: 1 }}
         bg="purple.400"
-        minHeight={{ lg: '100vh' }}
+        minHeight={{ sm: '30vh', md: '80vh', lg: '100vh' }}
         p={{ base: '20px', md: '30px' }}
       >
         <Sidebar></Sidebar>
