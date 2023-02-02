@@ -8,6 +8,9 @@
 6. Card component
 7. Tabs component
 8. FormControl component
+9. Toast Component for notify
+10. Avatar component
+11. Custom theme [detail guide](https://chakra-ui.com/docs/styled-system/customize-theme)
 
 > REF youtube: [short-course](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hcnIeryurNMMcGBHp7AYlP)
 > Navigate: react-router-dom
