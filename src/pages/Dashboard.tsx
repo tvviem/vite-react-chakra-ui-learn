@@ -1,4 +1,5 @@
 import {
+  Avatar,
   Box,
   Button,
   Divider,
@@ -35,10 +36,8 @@ export default function Dashboard() {
               bg="white"
             >
               <CardHeader>
-                <Flex>
-                  <Box w="50px" h="50px">
-                    <Text>AV</Text>
-                  </Box>
+                <Flex gap={3}>
+                  <Avatar src={task.img} />
                   <Box>
                     <Heading as="h3" size="sm">
                       {task.title}
