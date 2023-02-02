@@ -36,7 +36,7 @@ export default function Create() {
 
   return (
     <Box maxW="480px">
-      <Form method="post" action="/create" onSubmit={handleSubmit}>
+      <Form method="post" onSubmit={handleSubmit}>
         <FormControl isRequired mb="40px">
           <FormLabel>Task name: </FormLabel>
           <Input type="text" name="title" />
